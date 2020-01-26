@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="xml.common.College">
+  <void property="students">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="xml.common.Student">
+      <void property="firstName">
+       <string>John</string>
+      </void>
+      <void property="id">
+       <int>1</int>
+      </void>
+      <void property="lastName">
+       <string>Doe</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="xml.common.Student">
+      <void property="firstName">
+       <string>Scott</string>
+      </void>
+      <void property="id">
+       <int>2</int>
+      </void>
+      <void property="lastName">
+       <string>Tiger</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
